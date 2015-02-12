@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromoLib", "Palimdrono\PalindromoLib.csproj", "{CF2A2963-ACF4-403C-A993-E5E8F056036D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromoTest", "PalindromoTest\PalindromoTest.csproj", "{C7EEC72F-C660-4DBC-BD7E-03DE0D2F6719}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF2A2963-ACF4-403C-A993-E5E8F056036D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF2A2963-ACF4-403C-A993-E5E8F056036D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF2A2963-ACF4-403C-A993-E5E8F056036D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF2A2963-ACF4-403C-A993-E5E8F056036D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7EEC72F-C660-4DBC-BD7E-03DE0D2F6719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7EEC72F-C660-4DBC-BD7E-03DE0D2F6719}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7EEC72F-C660-4DBC-BD7E-03DE0D2F6719}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7EEC72F-C660-4DBC-BD7E-03DE0D2F6719}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
