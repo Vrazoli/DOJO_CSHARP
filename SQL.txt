@@ -1,0 +1,17 @@
+Create table cliente (id int identity(1,1) primary key, nome varchar(25) not null, sobrenome varchar(40) not null,RG varchar(25) not null,CPF varchar(11) not null,sexo char not null,idade int not null)
+
+create table carro(id int identity(1,1) primary key, modelo varchar(20) not null,ano int not null,foto varchar(100) not null,marca varchar(20) not null)
+
+
+
+create table proposta(id int identity (1,1) primary key, idCarro int not null,valorBase money not null)
+
+alter table proposta add constraint fk_IDCarro foreign key(idCarro) references carro(id)
+
+create table contrato(id int identity(1,1) primary key, valor money not null,idCliente int not null,idCarro int not null)
+
+
+alter table contrato add constraint fk_IDCarroContrato foreign key(idCarro) references carro(id)
+
+
+alter table contrato add constraint fk_IDCliente foreign key(idCliente) references Cliente(id)
