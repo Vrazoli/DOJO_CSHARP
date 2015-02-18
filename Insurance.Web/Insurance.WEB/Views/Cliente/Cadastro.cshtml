@@ -1,0 +1,64 @@
+﻿@model Insurance.WEB.Models.CadastroModel
+
+
+@{
+    ViewBag.Title = "Cadastro";
+
+}
+
+<div id="#divFormCadastro">
+
+    @using (Html.BeginForm("Cadastrar", "Cadastro", new { id = "#FRMCliente" }))
+    {
+        @Html.AntiForgeryToken()
+        <fieldset>
+            <legend>Formulário de Cadastro</legend>
+            <div id="clienteDadosSecundarios">
+                <ol>
+                    <li>
+                        @Html.LabelFor(m => m.Nome)
+                        @Html.TextBoxFor(m => m.Nome, new { id = "TXTNome" })
+                    </li>
+                    <li>
+                        @Html.LabelFor(m => m.Sobrenome)
+                        @Html.TextBoxFor(m => m.Sobrenome, new { id = "TXTSobrenome" })
+                    </li>
+                    <li>
+                        @Html.LabelFor(m => m.Idade)
+                        @Html.TextBoxFor(m => m.Idade, new { id = "TXTIdade" })
+                    </li>
+                </ol>
+            </div>
+            <div id="clienteDadosPrimarios">
+                <ol>
+                    <li>
+                        @Html.LabelFor(m => m.CPF)
+                        @Html.TextBoxFor(m => m.CPF, new { id = "TXTCPF" })
+                    </li>
+                    <li>
+                        @Html.LabelFor(m => m.RG)
+                        @Html.TextBoxFor(m => m.RG, new { id = "TXTRG" })
+                    </li>
+                    <li>
+                        @Html.LabelFor(m => m.Sexo)
+                        @Html.DropDownListFor(m => m.Sexo, new SelectList(new List<String>() { "M", "H" }), new { id = "DDLSexo" })
+                    </li>
+                </ol>
+            </div>
+            <input type="button" value="Salvar" id="BTNConfirmar" />
+        </fieldset>
+    }
+
+</div>
+
+<div id="divMensagem">
+</div>
+
+<noscript>
+    <p>Você necessita habilitar o Javascript para utilizar essa página</p>
+</noscript>
+
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/Scripts/Cliente")
+
+

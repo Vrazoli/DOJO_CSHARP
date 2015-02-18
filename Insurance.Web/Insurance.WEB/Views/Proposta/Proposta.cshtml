@@ -1,0 +1,41 @@
+﻿@model IList<Insurance.WEB.Models.TipoProposta>
+@{
+    ViewBag.Title = "Proposta";
+}
+<h2>Propostas de veículos:</h2>
+<noscript>
+    É necessário habilitar o javascript no seu browser para que esta pagina funcione corretamente
+</noscript>
+@{
+
+    if (Model.Count != 0)
+    {
+        <input type="button" id="BTNConfirmaProposta" value="Confirmar Proposta" />
+        <table id="TipoProposta">
+            @{
+        int cont = 1;
+
+        foreach (var obj in Model)
+        {
+            <tr id="linha @cont">
+                <td> <input type="radio" id="radio @cont"> @obj.Marca </td>
+                <td>@obj.Modelo</td>
+                <td>@obj.Ano</td>
+                <td><img src="@obj.foto" width="30" height="30"></td> 
+                <td><input type="hidden" value="@obj.IdProposta"></td>
+            </tr>
+            cont++;
+        }
+            }
+        </table>
+    }
+
+    else
+    {
+        <h1>Não Há nenhuma proposta a ser exibida</h1>
+    }
+}
+
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/Scripts/Proposta")
+<!--~/Images/carroDHR.jpg-->

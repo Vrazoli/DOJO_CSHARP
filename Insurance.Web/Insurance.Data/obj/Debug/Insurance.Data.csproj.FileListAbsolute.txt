@@ -1,0 +1,12 @@
+D:\Cotuca\trabalho\Insurance.Web\Insurance.Data\obj\Debug\Insurance.Data.csprojResolveAssemblyReference.cache
+D:\Cotuca\trabalho\Insurance.Web\Insurance.Data\bin\Debug\Insurance.Data.dll.config
+D:\Cotuca\trabalho\Insurance.Web\Insurance.Data\bin\Debug\Insurance.Data.dll
+D:\Cotuca\trabalho\Insurance.Web\Insurance.Data\bin\Debug\Insurance.Data.pdb
+D:\Cotuca\trabalho\Insurance.Web\Insurance.Data\bin\Debug\EntityFramework.dll
+D:\Cotuca\trabalho\Insurance.Web\Insurance.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Cotuca\trabalho\Insurance.Web\Insurance.Data\bin\Debug\Insurance.Model.dll
+D:\Cotuca\trabalho\Insurance.Web\Insurance.Data\bin\Debug\Insurance.Model.pdb
+D:\Cotuca\trabalho\Insurance.Web\Insurance.Data\bin\Debug\EntityFramework.xml
+D:\Cotuca\trabalho\Insurance.Web\Insurance.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Cotuca\trabalho\Insurance.Web\Insurance.Data\obj\Debug\Insurance.Data.dll
+D:\Cotuca\trabalho\Insurance.Web\Insurance.Data\obj\Debug\Insurance.Data.pdb

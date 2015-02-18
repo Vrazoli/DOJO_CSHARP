@@ -1,0 +1,9 @@
+D:\Cotuca\trabalho\Insurance.Web\Insurance.Business\obj\Debug\Insurance.Business.csprojResolveAssemblyReference.cache
+D:\Cotuca\trabalho\Insurance.Web\Insurance.Business\bin\Debug\Insurance.Business.dll
+D:\Cotuca\trabalho\Insurance.Web\Insurance.Business\bin\Debug\Insurance.Business.pdb
+D:\Cotuca\trabalho\Insurance.Web\Insurance.Business\bin\Debug\Insurance.Data.dll
+D:\Cotuca\trabalho\Insurance.Web\Insurance.Business\bin\Debug\Insurance.Model.dll
+D:\Cotuca\trabalho\Insurance.Web\Insurance.Business\bin\Debug\Insurance.Data.pdb
+D:\Cotuca\trabalho\Insurance.Web\Insurance.Business\bin\Debug\Insurance.Model.pdb
+D:\Cotuca\trabalho\Insurance.Web\Insurance.Business\obj\Debug\Insurance.Business.dll
+D:\Cotuca\trabalho\Insurance.Web\Insurance.Business\obj\Debug\Insurance.Business.pdb

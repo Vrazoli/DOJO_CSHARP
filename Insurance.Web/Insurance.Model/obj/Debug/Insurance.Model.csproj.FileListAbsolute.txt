@@ -1,0 +1,5 @@
+D:\Cotuca\trabalho\Insurance.Web\Insurance.Model\bin\Debug\Insurance.Model.dll
+D:\Cotuca\trabalho\Insurance.Web\Insurance.Model\bin\Debug\Insurance.Model.pdb
+D:\Cotuca\trabalho\Insurance.Web\Insurance.Model\obj\Debug\Insurance.Model.dll
+D:\Cotuca\trabalho\Insurance.Web\Insurance.Model\obj\Debug\Insurance.Model.pdb
+D:\Cotuca\trabalho\Insurance.Web\Insurance.Model\obj\Debug\Insurance.Model.csprojResolveAssemblyReference.cache

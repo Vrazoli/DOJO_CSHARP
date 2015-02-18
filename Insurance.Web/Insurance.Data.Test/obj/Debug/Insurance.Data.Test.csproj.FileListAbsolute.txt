@@ -1,0 +1,5 @@
+D:\Cotuca\trabalho\Insurance.Web\Insurance.Data.Test\bin\Debug\Insurance.Data.Test.dll
+D:\Cotuca\trabalho\Insurance.Web\Insurance.Data.Test\bin\Debug\Insurance.Data.Test.pdb
+D:\Cotuca\trabalho\Insurance.Web\Insurance.Data.Test\obj\Debug\Insurance.Data.Test.dll
+D:\Cotuca\trabalho\Insurance.Web\Insurance.Data.Test\obj\Debug\Insurance.Data.Test.pdb
+D:\Cotuca\trabalho\Insurance.Web\Insurance.Data.Test\obj\Debug\Insurance.Data.Test.csprojResolveAssemblyReference.cache
